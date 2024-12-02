@@ -1,3 +1,9 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .mainContainer {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,6 +13,24 @@
     width: calc(100% - 40px);
 }
 
+.reactImage {
+    width: 60px;
+    height: 60px;
+}
+
 .title {
     margin-top: 30px;
+}
+
+.navBar {
+
+}
+
+.navList {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 1.5rem;
 }
