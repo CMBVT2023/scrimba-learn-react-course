@@ -6,7 +6,7 @@ export function NavBarLink({ linkTo, children }) {
 
     return (
         <>
-            {pathname != linkTo ? <Link to={linkTo}>{children}</Link> : <h2>{children}</h2>}
+            {pathname != linkTo ? <Link to={linkTo}>{children}</Link> : <p>{children}</p>}
         </>
     )
 }
