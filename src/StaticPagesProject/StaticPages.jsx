@@ -1,3 +1,4 @@
+import { NavBar } from "./NavBar"
 import { Header } from "./Header"
 import { Page } from "./Page"
 import { Footer } from "./Footer"
@@ -23,6 +24,7 @@ Part 2:
 export function StaticPages() {
     return (
         <div className={styles.mainContainer}>
+            <NavBar />
             <Header styles={styles} />
             <Page />
             <Footer />
