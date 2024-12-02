@@ -1,6 +1,6 @@
 export function Page({ styles }) {
     return (
-        <>
+        <div className={styles.pageContainer}>
             <h1 className={styles.title}>Fun Facts About React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -9,6 +9,6 @@ export function Page({ styles }) {
                 <li>Is maintained by Meta</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-        </>
+        </div>
     )
 }

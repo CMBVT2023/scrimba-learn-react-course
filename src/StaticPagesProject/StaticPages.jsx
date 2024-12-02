@@ -25,7 +25,7 @@ export function StaticPages() {
         <div className={styles.mainContainer}>
             <Header styles={styles} />
             <Page styles={styles} />
-            <Footer />
+            <Footer styles={styles}/>
         </div>
     )
 }
