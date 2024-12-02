@@ -1,0 +1,12 @@
+.mainContainer {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+    height: calc(100% - 3.5rem - 40px);
+    width: calc(100% - 40px);
+}
+
+.title {
+    margin-top: 30px;
+}
