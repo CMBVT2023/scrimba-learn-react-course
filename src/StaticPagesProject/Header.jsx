@@ -3,7 +3,10 @@ export function Header({ styles }) {
 
     return (
         <header className={styles.headerContainer}>
-            <img className={styles.reactImage} src={reactImage} alt='React Logo' />
+            <div className={styles.infoContainer}>
+                <img className={styles.reactImage} src={reactImage} alt='React Logo' />
+                <h1>React Facts</h1>
+            </div>
             <nav className={styles.navBar}>
                 <ul className={styles.navList}>
                     <li>Pricing</li>
